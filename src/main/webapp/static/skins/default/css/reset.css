@@ -1,0 +1,57 @@
+﻿/**css reset
+ * @author maqunjing
+ * @date 2012-7-25
+ * */
+body, dl, dd, h1, h2, h3, h4, h5, h6, pre, p, blockquote, fieldset, textarea, ol, ul {
+    margin: 0
+}
+fieldset, textarea, input, a img {
+    border: none
+}
+fieldset, textarea, input, legend, th, td, ol, ul {
+    padding: 0
+}
+address, caption, cite, code, dfn, em, strong, th, var, optgroup {
+    font-style: normal
+}
+th, strong, optgroup, h1, h2, h3, h4, h5, h6 {
+    /* font-weight: normal */
+}
+ol, ul {
+    list-style: none
+}
+caption, th {
+    text-align: left
+}
+h1, h2, h3, h4, h5, h6, sup, sub {
+    /* font-size: 100% */
+}
+input, textarea, select, button, optgroup, option {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit
+}
+input, button, textarea, select, optgroup, option {
+    *font-size: 100%
+}
+code, kbd, samp {
+    font-family: inherit
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+sup, sub {
+    vertical-align: baseline;
+}
+q:before, q:after {
+    content: ''
+}
+a:hover, a:focus, :link, :visited, ins {
+    text-decoration: none
+}
+:focus {
+    outline: 0
+}
+

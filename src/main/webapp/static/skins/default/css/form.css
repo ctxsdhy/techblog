@@ -1,0 +1,59 @@
+﻿.clear {
+    clear: both;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/*** body ***/
+body {
+    font-family: Verdana, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+/*** 滚动条 ***/
+::-webkit-scrollbar {
+    width: 16px;
+    height: 16px;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-thumb {
+    border-radius: 1px;
+    border: 0px solid transparent;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.0) inset;
+}
+
+::-webkit-scrollbar-thumb {
+    min-height: 20px;
+    background-clip: content-box;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.3) inset;
+    background: white;
+}
+
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+::-webkit-scrollbar-track-piece{
+    background: url("../img/backgroud.png") repeat;
+}
+
+/*** 选中色 ***/
+/* ::selection{background-color: #f0ad4e; color: #FFF;}
+::-moz-selection{background-color: #f0ad4e; color: #FFF;} */
+
+/*** 表单验证 ***/
+.input-warning {
+    background-color: #FFF6F6;
+    border-color: #E0B4B4;
+    color: #c9302c;
+}
+
+.input-warning-msg {
+    color: #c9302c;
+}

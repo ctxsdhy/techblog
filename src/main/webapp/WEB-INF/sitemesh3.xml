@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+	
+	<!-- 对不同的路径，启用不同的装饰器 -->
+	<mapping path="/*/m/*" decorator="/WEB-INF/views/decorator/manageTemplate.jsp" />
+	<mapping path="/m/*" decorator="/WEB-INF/views/decorator/manageTemplate.jsp" />
+	
+	<!-- 排除，不进行装饰的路径 -->
+	<mapping path="/m/u/login" exclue="true" />
+</sitemesh>

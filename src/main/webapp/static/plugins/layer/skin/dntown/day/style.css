@@ -1,0 +1,12 @@
+﻿/** 
+ 
+ @Name: layer皮肤--dntown-day
+ @Date: 2016-02-14
+ @Author: ctxsdhy
+ @blog: ctxsdhy.net
+ @remark: 666
+**/
+
+body .layui-layer-dialog{ min-width: 0 !important;border: 1px solid #BBB;}
+body .layer-ext-dntown-day .layui-layer-btn{padding:0 13px 15px 13px; text-align:center;margin-top: -5px;}
+body .layui-layer-dialog .layui-layer-content{text-align:left; padding:20px 20px 20px 20px}
